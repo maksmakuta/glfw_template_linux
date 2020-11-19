@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/maks/Desktop/glfw_template_linux/main.cpp
+cmath
+-
+cstdlib
+-
+cstdio
+-
+cstring
+-
+GL/glew.h
+-
+GLFW/glfw3.h
+-
+
